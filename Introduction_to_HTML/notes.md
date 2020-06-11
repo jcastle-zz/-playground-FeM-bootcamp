@@ -22,3 +22,11 @@
 - Photoshop images are rastors, built with series of pixels.
 - SVGs are mathematical images.
 - For images, width and height are not best attributes. Best to resize in a separate program.
+
+## HTML Extras
+- Quotes on webpage, use <blockquote>
+- <em> for emphasis, <strong> for strong emphasis, neither to be confused with <bold> or <italicize>
+- HTML validator - https://validator.w3.org/
+- Image resize - can resize in webpage with HTML & CSS but shouldn't do it that way. Should resize in another program before linking HTML page.
+- Can use Preview on Mac or check online.
+- How big the picture should be depends on what you are building. Subjective.
