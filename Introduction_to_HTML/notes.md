@@ -19,3 +19,6 @@
 - Tag - identifies portion of the document.
 - Element same thing as tag, often used interchangeably.
 - Attribute - arguments to tags or descriptions to tags.
+- Photoshop images are rastors, built with series of pixels.
+- SVGs are mathematical images.
+- For images, width and height are not best attributes. Best to resize in a separate program.
