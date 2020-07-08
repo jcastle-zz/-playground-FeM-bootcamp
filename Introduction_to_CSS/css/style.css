@@ -1,0 +1,68 @@
+/* 
+
+Basic CSS - https://frontendmasters.github.io/bootcamp/css
+Layout - https://frontendmasters.github.io/bootcamp/layout
+
+*/
+/* 
+Cascading styles
+- If style is stated twice in document, the second style will win.
+- Last style always wins in CSS even in the same selector.
+
+Links to items below
+- https://frontendmasters.github.io/bootcamp/css#references
+
+Color pickers
+- https://color.adobe.com/explore
+- https://frontendmasters.com/bootcamp/introduction-css/color-tools/ - Chrome extension for picking colors
+
+CSS validator
+- http://jigsaw.w3.org/css-validator/
+
+Place to post pictures
+- https://imgur.com/
+
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFD3C6;
+}
+img {
+    border: 10px solid green;
+}
+h1 {
+    border: 5px dotted red;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+cite {
+    font-size: 2rem;
+}
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+ul a:link {
+    /*descendent selector - ul a:link*/
+    /*pseudo class for unvisted links - a:link*/
+    font-weight: bold;
+    text-decoration: none; /*takes out underline*/
+    color: brown;
+}
+ul a:visited {
+    color: green;
+    font-size: 2rem;
+    font-weight: normal; /*turns off the bold*/
+}
+ul a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+ul a.harvard:link {
+    color: maroon;
+}
