@@ -4,3 +4,19 @@ Layout - https://frontendmasters.github.io/bootcamp/layout
 
 */
 
+div {
+    border: 5px blue solid;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.box1 {
+    border-color: orange;
+    background-color: #ffcc00;
+}
+.box2 {
+}
+p {
+    border: 2px solid green;
+}
