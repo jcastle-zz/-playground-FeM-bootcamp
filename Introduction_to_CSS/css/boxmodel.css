@@ -6,7 +6,7 @@ Layout - https://frontendmasters.github.io/bootcamp/layout
 
 div {
     border: 5px blue solid;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-color: lightblue;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -19,4 +19,12 @@ div {
 }
 p {
     border: 2px solid green;
+    margin-top: 0;
+}
+h1 {
+    margin-bottom: 0;
+    margin: 0;
+}
+a {
+    border: 2px solid blue;
 }
