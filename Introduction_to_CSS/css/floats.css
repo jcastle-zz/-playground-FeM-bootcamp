@@ -1,0 +1,21 @@
+/* Notes on shorthand - https://frontendmasters.github.io/bootcamp/layout#shorthand */
+.floatleft {
+    float: left;
+    /* TRBL */
+    margin: 0 1rem 1rem 0;
+}
+.floatright {
+    float: right;
+    margin: 1rem 0 0 1rem;
+}
+article {
+    width: 30rem;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+/* If you float, you should clear */
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -23,7 +23,7 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     display: block;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0 1rem 0;
 }
 nav a:hover {
     background-color: white;

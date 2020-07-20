@@ -1,0 +1,13 @@
+/* Notes on Flexbox - https://frontendmasters.github.io/bootcamp/layout#introducing-flexbox */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+li {
+    border: 3px solid blue;
+    flex-basis: 10%;
+}
