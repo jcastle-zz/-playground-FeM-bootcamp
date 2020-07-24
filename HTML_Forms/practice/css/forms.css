@@ -18,7 +18,7 @@ body {
 	flex-flow: row nowrap;
 	background-color: orange;
 }
-p {
+p, [for="abtype"] {
 	margin-bottom: 0;
 	margin-top: 2rem;
 }
@@ -43,9 +43,35 @@ legend {
 label {
 	display: block;
 }
-
-
-
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+select {
+	font-size: 1rem;
+}
+button {
+	font-size: 1rem;
+	margin: 2rem 0;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+}
+button:hover {
+	background-color: blue;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, [for="comments"] {
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: none;
+}
 
 
 
