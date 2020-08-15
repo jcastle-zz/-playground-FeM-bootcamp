@@ -98,3 +98,10 @@ console.log(myStr); /// 'fffff'
 
 // Functions & Scope
 // Functions are a bit of reusable code, encapsulate logic and use it over and over again. Also called procedures and methods. More than four parameters, may want to make smaller functions.
+// Scope matters where variable was created - inside or outside the block of code or function '{}'.
+// https://frontendmasters.github.io/bootcamp/functions-and-scope#scope
+
+// Builtins - https://frontendmasters.github.io/bootcamp/functions-and-scope#builtins
+// JS has builtin functions - .toLowerCase(), .toUpperCase(), Math.min(), Math.floor(), etc.
+
+// JS exercise - https://codepen.io/jcastle/pen/oNxxqzo
