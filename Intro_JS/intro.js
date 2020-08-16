@@ -105,3 +105,17 @@ console.log(myStr); /// 'fffff'
 // JS has builtin functions - .toLowerCase(), .toUpperCase(), Math.min(), Math.floor(), etc.
 
 // JS exercise - https://codepen.io/jcastle/pen/oNxxqzo
+
+// Objects & Arrays
+// https://frontendmasters.github.io/bootcamp/objects-and-arrays
+// keys: values - keys have a unique value
+// objects with a function is a method
+
+// Context - use 'this' keyword in the object, refers to the object itself
+
+// Arrays - ordered lists, objects are unordered
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+// Map - have an array and want to transform into another array. Similar to forEach.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+
