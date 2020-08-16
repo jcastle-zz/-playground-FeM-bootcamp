@@ -119,3 +119,8 @@ console.log(myStr); /// 'fffff'
 // Map - have an array and want to transform into another array. Similar to forEach.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
 
+// The DOM 
+// https://frontendmasters.github.io/bootcamp/dom
+// document.querySelector([className]) - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+// getElementById([elementName]) - https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+// Use $ when inspecting element - $0.style.borderBottom = '2px solid red'
