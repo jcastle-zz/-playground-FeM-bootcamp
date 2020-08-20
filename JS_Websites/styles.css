@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* Makes doing measurements w/ borders and paddings much easier. */
 }
 
 .gallery-img {
@@ -16,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Last three items together allow for centering content on page. */
 }
 
 .btns {
@@ -23,6 +25,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Last three items together allow for centering content on page. Align buttons under image-gallery. */
 }
 
 .btn {
@@ -30,9 +33,11 @@
   color: white;
   font-size: 20px;
   padding: 5px 20px;
+  /* Want buttons to have a little vertical spacing but a lot of horizontal spacing. */
   border-color: transparent;
   border-radius: 5px;
   cursor: pointer;
+  /* Make something look clickable when moused over. */
 }
 
 .prev {
@@ -42,4 +47,5 @@
 .btn:disabled {
   background-color: #666;
   cursor: not-allowed;
+  /* Gray out button and show not-allowed symbol. */
 }
