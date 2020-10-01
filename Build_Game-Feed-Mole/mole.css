@@ -23,3 +23,31 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.hole {
+  background-color: black;
+  border-radius: 50%;
+  overflow: visible;
+  width: 267px;
+  height: 267px;
+}
+
+.hole-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mole {
+  position: relative;
+  right: 30px;
+}
+
+.hungry {
+  cursor: url(./images/cursor-worm.png);
+}
+
+.gone {
+  display: none;
+}
