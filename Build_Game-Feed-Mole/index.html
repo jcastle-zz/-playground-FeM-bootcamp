@@ -1,117 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Feed a Mole</title>
-    <link rel="stylesheet" href="./mole.css" />
-  </head>
-  <body>
-    <!-- Game build specs - https://frontendmasters.github.io/bootcamp/mole -->
 
-    <section class="bg">
-      <div class="hole-container">
-        <div class="hole" id="hole-0">
-          <img
-            data-index="0"
-            src="./images/king-mole-hungry.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-1">
-          <img
-            data-index="1"
-            src="./images/king-mole-fed.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-2">
-          <img
-            data-index="2"
-            src="./images/king-mole-hungry.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-3">
-          <img
-            data-index="3"
-            src="./images/king-mole-sad.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-4">
-          <img
-            data-index="4"
-            src="./images/king-mole-leaving.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-5">
-          <img
-            data-index="5"
-            src="./images/mole-hungry.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-6">
-          <img
-            data-index="6"
-            src="./images/mole-fed.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-7">
-          <img
-            data-index="7"
-            src="./images/mole-sad.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-8">
-          <img
-            data-index="8"
-            src="./images/mole-leaving.png"
-            alt="mole"
-            class="mole"
-          />
-        </div>
-      </div>
-      <div class="hole-container">
-        <div class="hole" id="hole-9">
-          <img
-            data-index="9"
-            src="./images/king-mole-hungry.png"
-            alt="happy mole"
-            class="mole"
-          />
-        </div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feed a Mole</title>
+  <link rel="stylesheet" href="./mole.css" />
+</head>
 
-    <script src="./mole.js"></script>
-  </body>
+<body>
+  <!-- Game build specs - https://frontendmasters.github.io/bootcamp/mole -->
+
+  <section class="bg">
+
+    <div class="worm-box">
+      <div class="worm-container">
+        <img class="worm" src="./images/worm.png" alt="worm score meter">
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-0">
+        <img data-index="0" src="./images/king-mole-hungry.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-1">
+        <img data-index="1" src="./images/king-mole-fed.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-2">
+        <img data-index="2" src="./images/king-mole-hungry.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-3">
+        <img data-index="3" src="./images/king-mole-sad.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-4">
+        <img data-index="4" src="./images/king-mole-leaving.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-5">
+        <img data-index="5" src="./images/mole-hungry.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-6">
+        <img data-index="6" src="./images/mole-fed.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-7">
+        <img data-index="7" src="./images/mole-sad.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-8">
+        <img data-index="8" src="./images/mole-leaving.png" alt="mole" class="mole" />
+      </div>
+    </div>
+    <div class="hole-container">
+      <div class="hole" id="hole-9">
+        <img data-index="9" src="./images/king-mole-hungry.png" alt="happy mole" class="mole" />
+      </div>
+    </div>
+  </section>
+  <img class="win hide" src="./images/win.png" alt="you've won the game">
+  <script src="./mole.js"></script>
+</body>
+
 </html>
