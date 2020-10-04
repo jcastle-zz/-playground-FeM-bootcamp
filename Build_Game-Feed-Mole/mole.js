@@ -13,7 +13,7 @@ function getHungryInterval() {
 }
 
 function getKingStatus() {
-    return Math.random() > .9;
+    return Math.random() > 0.9;
 }
 
 const moles = [
@@ -142,14 +142,15 @@ function feed(event) {
     score++;
     if (score >= 10) {
         win();
+        return;
     }
     
     document.querySelector('.worm-container').style.width = `${10 * score}%`;
 }
 
 function win() {
-    document.querySelector('.bg').classList.add('hide');
-    document.querySelector('.win').classList.remove('hide');
+    document.querySelector('.bg').classList.toggle('hide', true);
+    document.querySelector('.win').classList.toggle('show', true);
 }
 
 let runAgainAt = Date.now() + 100;
