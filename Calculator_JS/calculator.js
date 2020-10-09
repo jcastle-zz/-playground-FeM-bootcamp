@@ -32,13 +32,16 @@ function handleSymbol(symbol){
             runningTotal = '0';
             break;
         // addition
-        case '&plus;':
+        case '+':
+            break;
         // subtraction
-        case '&minus;':
+        case '−':
+            break;
         // multiplication
-        case '&times;':
+        case '×':
+            break;
         // division
-        case '&divide;':
+        case '÷':
             handleMath(symbol);
             break;
     }
@@ -86,7 +89,7 @@ function handleNumber(numberString) {
     }
 }
 
-// This function get's called once and set's everything up
+// This function gets called once and set's everything up
 function init() {
     document.querySelector('.calc-buttons')
     .addEventListener('click', function (e) {
