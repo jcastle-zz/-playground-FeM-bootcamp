@@ -33,13 +33,10 @@ function handleSymbol(symbol){
             break;
         // addition
         case '+':
-            break;
         // subtraction
         case '−':
-            break;
         // multiplication
         case '×':
-            break;
         // division
         case '÷':
             handleMath(symbol);
@@ -61,9 +58,7 @@ function handleMath(symbol) {
     } else {
         flushOperation(intBuffer);
     }
-
     previousOperator = symbol;
-    
     buffer = '0';
 }
 
@@ -71,13 +66,12 @@ function flushOperation(intBuffer) {
     if (previousOperator === '+') {
         runningTotal += intBuffer;
     } else if (previousOperator === '−') {
-        runningTotal -+ intBuffer;
+        runningTotal -= intBuffer;
     } else if (previousOperator === '×') {
         runningTotal *= intBuffer;
     } else {
         runningTotal /= intBuffer;
     }
-
 }
 
 function handleNumber(numberString) {
